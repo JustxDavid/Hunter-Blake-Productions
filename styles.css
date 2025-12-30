@@ -129,7 +129,11 @@ ul {
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
+}
+
+.nav-menu li a {
+    white-space: nowrap;
 }
 
 .nav-menu a {
